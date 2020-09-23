@@ -146,6 +146,10 @@ section .contenedor h2 {
   margin-top: 30px;
 }
 
+.rigt {
+  text-align: right;
+}
+
 h2 {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -275,6 +279,15 @@ section .contac {
 
 section .contenedor {
   display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 120px;
+  justify-content: space-between;
+}
+
+section .contenedor__reverse {
+  display: flex;
+  flex-direction: column-reverse;
   width: 80%;
   margin: auto;
   margin-top: 120px;
@@ -554,3 +567,174 @@ footer ul li {
   height: 100%;
   object-fit: cover;
 }
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .menu_position {
+      display: none;
+    }
+    .mrtop {
+      margin-top: 30px;
+    }
+
+    .titulo1 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.7rem;
+        position: relative;
+        top: 0px;
+        padding-top: 220px;
+    }
+    .titulo2 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.7rem;
+        position: relative;
+        top: -10px;
+    }
+    .titulo3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        letter-spacing: 0.7rem;
+        position: relative;
+        top: -20px;
+    }
+
+    .bajada {
+      font-size: 1rem;
+    }
+
+    header .mrtop20 {
+      margin: 0;
+    }
+
+    header p {
+      margin-top: 13px;
+      color: rgb(238, 238, 238);
+      font-size: 1rem;
+    }
+
+    .back-home {
+      min-height: 100vh;
+        background-size: cover;
+        background-position: 800px;
+    }
+
+    .padre-flex {
+        display: flex;
+        /* flex-wrap: nowrap; */
+       /*  justify-content: space-between; */
+        align-content: center;
+    }
+    header .contenedor {
+      width: 75%;
+      text-align: center;
+    }
+
+    section .contenedor {
+     /*  display: inline-block; */
+      flex-direction: column-reverse;
+      margin: 0px;
+      width: 100%;
+    }
+
+    section .contenedor h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+
+    .descripcion {
+      flex-direction: column;
+      justify-content: left;
+      align-items: flex-start;
+    }
+
+    .parrafo {
+      width: 100%;
+      margin-right: 20px;
+      margin-left: 0;
+      text-align: left;
+      margin-top: 15px;
+    }
+
+  h2 {
+      font-size: 3rem;
+      line-height: 3rem;
+  }
+
+  .bloque {
+    width: 80%;
+    margin: auto;
+    padding-top: 15px
+    }
+
+  .bloq {
+    width: 80%;
+    margin: auto;
+    padding-top: 15px
+  }
+
+  .cont_img {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .logo {
+    margin: auto;
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .resise {
+    /* width: cover;
+    height: 100%; */
+    object-fit: cover;
+    text-align: center;
+  }
+
+  .align_izquierda {
+    text-align: left;
+  }
+
+  .mockups {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  section .trabajos ul li {
+    width: 50%;
+  }
+  section h3 {
+    display: none;
+  }
+  .boton {
+    background-color: #EB0D33 ;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+   /*  width: 50%; */
+    height: 22px ;
+    border: none;
+    transition: all 500ms ease;
+  }
+
+}
+
+
