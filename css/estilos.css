@@ -257,6 +257,10 @@ section .contac {
 }
 
 
+.worksrecientes__mokups {
+  line-height: 0;
+}
+
 /* TRABAJOS*/
 
 .dad-flex {
@@ -518,6 +522,10 @@ form textarea:focus {
 .reverse {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.line_h {
+  line-height: 0;
 }
 
 section .mitad p {
