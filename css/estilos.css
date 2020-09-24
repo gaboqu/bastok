@@ -36,6 +36,10 @@ li {
 
 /*HOME*/
 
+.mobile {
+  display: none;
+}
+
 header p {
   color: #848484;
 }
@@ -571,6 +575,15 @@ footer ul li {
 /* MOBILE */
 
 @media (max-width: 768px) {
+    .pc {
+    display: none;
+    
+  }
+
+  .mobile {
+    display: unset;
+  }
+
     .menu_position {
       display: none;
     }
