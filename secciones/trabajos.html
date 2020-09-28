@@ -8,7 +8,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" href="../lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.css">
   <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../css/lightbox.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" />
   <meta name="description" content="Algo importante para nosotros es nuestra experiencia y los clientes que confiaron en nosotros">
 
@@ -75,9 +77,44 @@
   </div>
 </header>
 
-  <section>
+<div class="gallery-container dad-flex">
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/produ.jpg" data-lightbox="1" data-title="Produccion de fotos , Santa Fe."  ><img class="resise" src="../imagenes/produ.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/PRODFOTO.jpg" data-lightbox="2" data-title="Produccion de fotos, Esteban Taubas."><img class="resise" src="../imagenes/PRODFOTO.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="images/mock.jpg" data-lightbox="3"><img class="resise" src="images/mock.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/foto-text.jpg" data-lightbox="4"><img class="resise" src="../imagenes/BST.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="images/mock.jpg" data-lightbox="5"><img class="resise" src="images/mock.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="images/mock2.jpg" data-lightbox="6"><img class="resise" src="images/mock2.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/etau.jpg" data-lightbox="7"><img class="resise" src="../imagenes/etau.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/BST.jpg" data-lightbox="8"><img class="resise" src="images/mock2.jpg" alt="I"></a>
+    </div>
+</div>
+
+
+ <!--  <section>
     <div class="dad-flex">
-      <li class="muestra zoom"><img class="resise" src="../imagenes/mock.png" alt=""></li>
+      <li class="muestra zoom"><img class="resise" src="../imagenes/mock.jpg" alt="" data-lightbox="image-1"></li>
       <li class="muestra zoom"><img class="resise" src="../imagenes/produ.jpg" alt=""></li>
       <li class="muestra zoom"><img class="resise" src="../imagenes/PRODFOTO.jpg" alt=""></li>
       <li class="muestra zoom"><img class="resise" src="../imagenes/mock2.png" alt=""></li>
@@ -98,7 +135,7 @@
       <li class="muestra zoom"><img class="resise" src="../imagenes/mock2.png" alt=""></li>
       <li class="muestra zoom"><img class="resise" src="../imagenes/mock.png" alt=""></li>
     </div>
-  </section>
+  </section> -->
   <footer class="bajada">
     <ul>
       <li>
@@ -120,10 +157,20 @@
       </p>
     </div>
   </footer>
+  <script src="../lightbox2-2.11.3/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();
   </script>
+  <script src="../js/lightbox-plus-jquery.min.js"></script>
+  <script src="../js/lightbox.min.js"></script>
+  <script src="../js/app.js"></script>
+  <script>
+    lightbox.option({
+     'albumLabel'= false;
+    })
+</script>
+
 </body>
 
 </html>
