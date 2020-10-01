@@ -8,9 +8,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="../lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.css">
   <link rel="stylesheet" href="../css/estilos.css" />
+  <link rel="stylesheet" href="../lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.css">
   <link rel="stylesheet" href="../css/lightbox.min.css" />
+  <link rel="stylesheet" href="../css/mediabox.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" />
   <meta name="description" content="Algo importante para nosotros es nuestra experiencia y los clientes que confiaron en nosotros">
 
@@ -77,29 +78,33 @@
   </div>
 </header>
 
+<h2 class="mrleft">Nuestros trabajos</h2>
+
 <div class="gallery-container dad-flex">
+
+  
     <div class="gallery-card muestra zoom">
-      <a href="../imagenes/produ.jpg" data-lightbox="1" data-title="Produccion de fotos , Santa Fe."  ><img class="resise" src="../imagenes/produ.jpg" alt="I"></a>
+      <a href="https://youtu.be/qUgng6moK2o" class="mediabox"><img class="resise" src="../imagenes/galery_video-bonzo.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
-      <a href="../imagenes/PRODFOTO.jpg" data-lightbox="2" data-title="Produccion de fotos, Esteban Taubas."><img class="resise" src="../imagenes/PRODFOTO.jpg" alt="I"></a>
+      <a href="https://youtu.be/om11zQhyRdU" class="mediabox"><img class="resise" src="../imagenes/galery_video-conterbox_logoAnimado.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
-      <a href="images/mock.jpg" data-lightbox="3"><img class="resise" src="images/mock.jpg" alt="I"></a>
+      <a href="https://youtu.be/fCzZuhawNI8" class="mediabox"><img class="resise" src="../imagenes/galery_videoBroll-qatar-.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
-      <a href="../imagenes/foto-text.jpg" data-lightbox="4"><img class="resise" src="../imagenes/BST.jpg" alt="I"></a>
+      <a href="../imagenes/foto-text.jpg" data-lightbox="4"><img class="resise" src="../imagenes/galery_video-esteban_imaginario.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
-      <a href="images/mock.jpg" data-lightbox="5"><img class="resise" src="images/mock.jpg" alt="I"></a>
+      <a href="../imagenes/mar.jpg" data-lightbox="5"><img class="resise" src="../imagenes/marmk.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
-      <a href="images/mock2.jpg" data-lightbox="6"><img class="resise" src="images/mock2.jpg" alt="I"></a>
+      <a href="../imagenes/etau.jpg" data-lightbox="6"><img class="resise" src="../imagenes/galery_foto-EstebanTaubas.jpg" alt="I"></a>
     </div>
 
     <div class="gallery-card muestra zoom">
@@ -109,6 +114,34 @@
     <div class="gallery-card muestra zoom">
       <a href="../imagenes/BST.jpg" data-lightbox="8"><img class="resise" src="images/mock2.jpg" alt="I"></a>
     </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/modal_yoteavise.jpg" data-lightbox="yoteavise"><img class="resise" src="../imagenes/gallery_foto-yoteavise.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/modal_sesion-santafe.jpg" data-lightbox="sesion"><img class="resise" src="../imagenes/gallery_foto-sesion.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/modal_esteban-taubas_ll.jpg" data-lightbox="et" ><img class="resise" src="../imagenes/galery_foto-EstebanTaubas_ll.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/modal_esteban-taubas.jpg" data-lightbox="9" ><img class="resise" src="../imagenes/galery_foto-EstebanTaubas.jpg" alt="I"></a>
+    </div>
+
+   <!--  <div class="gallery-card muestra zoom">
+      <a href="images/mock.jpg" data-lightbox="10"><img class="resise" src="images/mock.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/foto-text.jpg" data-lightbox="11"><img class="resise" src="../imagenes/BST.jpg" alt="I"></a>
+    </div>
+
+    <div class="gallery-card muestra zoom">
+      <a href="../imagenes/BST.jpg" data-lightbox="12"><img class="resise" src="images/mock2.jpg" alt="I"></a>
+    </div> -->
 </div>
 
 
@@ -165,12 +198,16 @@
   <script src="../js/lightbox-plus-jquery.min.js"></script>
   <script src="../js/lightbox.min.js"></script>
   <script src="../js/app.js"></script>
-  <script>
+<!--   <script>
     lightbox.option({
      'albumLabel'= false;
     })
-</script>
-
+</script> -->
+<script src="../js/mediabox.js"></script>
+<script>
+  MediaBox('.mediabox');
+/*   MediaBox('.mediabox', { rel: '9' }); // Additional options
+ */</script>
 </body>
 
 </html>

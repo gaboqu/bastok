@@ -9,6 +9,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" href="lightbox2-2.11.3/lightbox2-2.11.3/dist/css/lightbox.css">
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/mediabox.css">
   <link rel="stylesheet" href="css/estilos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" />
   <meta name="description" content="Soluciones digitales para tu marca, producciones audiovisuales y fotográficas | diseño y desarrollo web | marketing digital | contenido para redes sociales">
@@ -160,14 +163,15 @@
       <div class="bajada">Trabajos recientes</div>
       <h2 class=" mrtop20">lo que hacemos!</h2>
       <ul class="mockups mrtop wow animate__animated animate__fadeIn">
+        <li class="worksrecientes__mokups"> <a href="https://youtu.be/qUgng6moK2o" class="mediabox"><img class="resise" src="imagenes/galery_video-bonzo.jpg" alt="I"></a></li>
+        <li class="worksrecientes__mokups"> <a href="https://youtu.be/om11zQhyRdU" class="mediabox"><img class="resise" src="imagenes/galery_video-conterbox_logoAnimado.jpg" alt="I"></a></li>
+        <li class="worksrecientes__mokups"><a href="https://youtu.be/fCzZuhawNI8" class="mediabox"><img class="resise" src="imagenes/galery_videoBroll-qatar-.jpg" alt="I"></a></li>
+        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
+
+<!--         <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
         <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
         <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
-        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li>
+        <li class="worksrecientes__mokups"><img class="resise" src="imagenes/mockup.jpg" alt=""></li> -->
       </ul>
 
       <h2 class="mrtop">clientes</h2>
@@ -220,6 +224,19 @@
       </p>
     </div>
   </footer>
+<!--   <script src="lightbox2-2.11.3/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+ -->  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <script src="js/app.js"></script>
+<!--   <script>
+    lightbox.option({
+     'albumLabel'= false;
+    })
+</script> -->
+<script src="js/mediabox.js"></script>
+<script>
+  MediaBox('.mediabox');
+</script>
   <script src="js/wow.min.js"></script>
   <script>
     new WOW().init();

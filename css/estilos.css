@@ -274,6 +274,14 @@ section .contac {
 
 .muestra {
   width: 25%;
+  padding: 5px;
+}
+
+.gallery-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 10%;
 }
 
 section .contenedor {
@@ -384,6 +392,12 @@ section .trabajos {
 
 .mrbott {
   margin-bottom: 30px;
+}
+
+.mrleft {
+  padding-left: 10%;
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .contac {
