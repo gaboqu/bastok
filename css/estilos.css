@@ -468,17 +468,25 @@ form textarea:focus {
 /*QUE HACEMOS?*/
 
 .servicios {
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
-.veinte {
+.q_hacemos-item {
   display: flex;
   flex-direction: column;
   align-content: center;
   width: 23%;
   align-items: center;
   text-align: center;
+}
+
+.q_hacemos-item p {
+  line-height: 2.5rem;
+  margin-top: 10px;
+}
+
+.veinte {
 }
 
 .hacemos {
@@ -494,11 +502,27 @@ form textarea:focus {
   width: 70%;
 }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .centro {
   display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center;
+  flex-direction: row;
+}
+
+.icon_H {
+  margin-bottom: 20px;
 }
 
 /*ESTUDIO*/
