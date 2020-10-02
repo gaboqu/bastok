@@ -79,11 +79,6 @@ header .contenedor {
   margin: auto;
 
 }
-/*
-nav ul {
-  padding-top: 40px;
-  display: inline-block;
-}*/
 
 a {
   text-decoration: none;
@@ -131,12 +126,6 @@ a {
   font-size: 3rem;
   letter-spacing: 0.1rem;
 }
-
-/*
-.leyenda p {
-    font-size: 1.5rem;
-}*/
-
 
 p {
   font-size: 1.5rem;
@@ -208,8 +197,8 @@ header .contenedor .estudio {
 }
 
 .sizefoot {
-  width: 22px;
-  margin-right: 5px;
+  width: 28px;
+  margin-right: 3px;
 }
 
 .menu_position {
@@ -502,6 +491,7 @@ form textarea:focus {
 
 .video {
   margin-bottom: 120px;
+  width: 70%;
 }
 
 .centro {
@@ -561,17 +551,13 @@ footer {
   align-content: center;
   flex-direction: column;
   align-items: center;
-  height: 200px;
   justify-content: center;
 }
-
-/* footer ul li {
-  display: inline-block;
-} */
 
 .footMenu {
   display: flex;
   flex-direction: row;
+  margin-top: 60px;
 }
 
 .footIcon {
@@ -589,11 +575,13 @@ footer a {
   text-decoration: none;
   color: #848484;
   margin-right: 20px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 footer p {
   font-size: 1.1rem;
   text-transform: initial;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
  footer .ho  a:hover {
    background: rgb(17, 17, 17);
@@ -766,6 +754,8 @@ footer p {
     transition: all 500ms ease;
   }
 
+  /* FOOTER */
+
   footer ul  {
     display: flex;
     flex-direction: column;
@@ -782,6 +772,33 @@ footer p {
   .footIcon {
     flex-direction: row;
     margin: 0;
+  }
+  footer p {
+    text-align: center;
+  }
+
+  /* QUE HACEMOS */
+
+  .hacemos {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .hacemos li {
+    margin-bottom: 30px;
+    width: 90%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  /* TRABAJOS */
+
+  .muestra {
+    width: 50%;
   }
 
 }
