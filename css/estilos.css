@@ -759,7 +759,7 @@ footer p {
   section .trabajos ul li {
     width: 50%;
   }
-  section h3 {
+  .hide {
     display: none;
   }
   .boton {
@@ -827,6 +827,8 @@ footer p {
   .video {
     width: 100%;
   }
+
+ 
 
   /* TRABAJOS */
 
