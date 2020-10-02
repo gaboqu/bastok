@@ -783,7 +783,7 @@ footer p {
 
   .sizefoot {
     width: 22px;
-    margin-right: 15px;
+    margin-right: 5px;
   }
 
   /* QUE HACEMOS */
@@ -823,6 +823,44 @@ footer p {
     flex-direction: column;
   }
 
+  section .mitad p {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .mitad {
+    width: 90%;
+  }
+
+  /* CONTACTO */
+
+  .contac {
+    flex-direction: column-reverse;
+  }
+
+  .direccion {
+    width: 100%;
+    margin-top: 40px
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .contenedor {
+    width: 100%;
 }
 
 
