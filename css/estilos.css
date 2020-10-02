@@ -832,8 +832,6 @@ footer p {
     width: 100%;
   }
 
- 
-
   /* TRABAJOS */
 
   .muestra {
@@ -893,10 +891,15 @@ footer p {
 
   .contenedor {
     width: 100%;
+  }
+
+  .contac h2 {
+    font-size: 2rem;
+    
+  } 
+
+  .mrbot {
+    margin-bottom: 10px;
+  }
+
 }
-
-.contac h2 {
-  font-size: 2rem;
-}
-
-
