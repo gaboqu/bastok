@@ -846,8 +846,9 @@ footer p {
 
   /* CONTACTO */
 
-  .contac {
+  section .contac {
     flex-direction: column-reverse;
+    margin: 20px 20px 20px 20px;
   }
 
   .direccion {
