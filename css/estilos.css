@@ -488,6 +488,7 @@ form textarea:focus {
 .q_hacemos-item p {
   line-height: 2.5rem;
   margin-top: 10px;
+  /* padding: 20px; */
 }
 
 .veinte {
@@ -569,6 +570,13 @@ form textarea:focus {
 section .mitad p {
   width: 70%;
   margin-left: 8rem;
+  margin-bottom: ;
+}
+
+section .mitad h2 {
+  width: 70%;
+  margin-left: 8rem;
+  margin-bottom: 30px;
 }
 
 /*FOOTER*/
@@ -852,6 +860,14 @@ footer p {
   }
 
   section .mitad p {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  section .mitad h2 {
     margin-left: 0;
     width: 100%;
     margin-top: 30px;
