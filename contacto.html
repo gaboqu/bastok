@@ -85,12 +85,12 @@
         <p>bastok@bastokcontenidos.com.ar</p>
       </div>
       <div class="form">
-        <form action="x" method="GET" enctype="multipart/form-data" autocomplete="off">
-          <input class="but" type="text" name="nombre" placeholder="nombre...">
-          <input class="but" type="email" name="email" placeholder="email...">
+        <form action="correos.php" method="POST" enctype="multipart/form-data" autocomplete="off">
+          <input class="but" type="text" name="nombre" placeholder="nombre..."  required>
+          <input class="but" type="email" name="email" placeholder="email..." required>
           <input class="but" type="text" name="telefono" placeholder="teléfono...">
-          <input class="but" type="text" name="asunto" placeholder="asunto...">
-          <textarea  name="mensaje" id="mensaje" placeholder="mensaje..." cols="30" rows="10"></textarea>
+          <input class="but" type="text" name="asunto" placeholder="asunto..." required="">
+          <textarea  name="mensaje" id="mensaje" placeholder="mensaje..." cols="30" rows="10" required=""></textarea>
           <input class="boton" type="submit" value="enviar">
         </form>
       </div>

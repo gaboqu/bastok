@@ -491,8 +491,9 @@ form textarea:focus {
   /* padding: 20px; */
 }
 
-.veinte {
-}
+/* .veinte {
+
+} */
 
 .hacemos {
   display: flex;
@@ -570,7 +571,6 @@ form textarea:focus {
 section .mitad p {
   width: 70%;
   margin-left: 8rem;
-  margin-bottom: ;
 }
 
 section .mitad h2 {
