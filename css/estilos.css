@@ -758,6 +758,17 @@ footer p {
     text-align: center;
   }
 
+  .phone {
+    width: 100%;
+  }
+
+  .clientes {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
   .align_izquierda {
     text-align: left;
   }
